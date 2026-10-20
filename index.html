@@ -3,43 +3,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Higiene y Seguridad en el Trabajo</title>
+<title>Higiene y Seguridad</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.contenedor{
+    text-align:center;
+    padding:40px;
+}
+
+.btn{
+    background:#0056b3;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin:10px;
+}
+
+.btn:hover{
+    background:#003d80;
+}
+
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1000;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+}
+
+.modal-content{
+    background:white;
+    width:80%;
+    max-width:600px;
+    margin:10% auto;
+    padding:20px;
+    border-radius:10px;
+    position:relative;
+}
+
+.cerrar{
+    position:absolute;
+    right:15px;
+    top:10px;
+    font-size:28px;
+    cursor:pointer;
+}
+</style>
 
 </head>
 <body>
 
-<section class="hero">
+<div class="contenedor">
+    <h1>Empresa de Higiene y Seguridad</h1>
 
-    <div class="overlay"></div>
+    <button class="btn" onclick="abrirModal('modalServicios')">
+        Servicios
+    </button>
 
-    <div class="hero-content">
+    <button class="btn" onclick="abrirModal('modalContacto')">
+        Contacto
+    </button>
+</div>
 
-        <h4>SERVICIOS PROFESIONALES DE</h4>
+<!-- MODAL SERVICIOS -->
+<div id="modalServicios" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('modalServicios')">&times;</span>
 
-        <h1>
-            Higiene y Seguridad
-            <span>en el Trabajo</span>
-        </h1>
+        <h2>Nuestros Servicios</h2>
 
-        <p>
-            Asesoramiento integral para empresas,
-            comercios, industrias y obras.
-        </p>
-
-        <a href="#contacto" class="btn">
-            Solicitar Presupuesto
-        </a>
-
+        <ul>
+            <li>Capacitaciones en Seguridad e Higiene</li>
+            <li>Evaluación de riesgos laborales</li>
+            <li>Planes de emergencia</li>
+            <li>Inspecciones y auditorías</li>
+        </ul>
     </div>
+</div>
 
-</section>
+<!-- MODAL CONTACTO -->
+<div id="modalContacto" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('modalContacto')">&times;</span>
 
-<section id="contacto">
-    <h2>Contacto</h2>
-    <p>Comunicate para recibir asesoramiento personalizado.</p>
-</section>
+        <h2>Contacto</h2>
+
+        <p>Email: contacto@empresa.com</p>
+        <p>Teléfono: +54 9 2966 123456</p>
+        <p>Río Gallegos - Santa Cruz</p>
+    </div>
+</div>
+
+<script>
+function abrirModal(id){
+    document.getElementById(id).style.display = "block";
+}
+
+function cerrarModal(id){
+    document.getElementById(id).style.display = "none";
+}
+
+window.onclick = function(event){
+    document.querySelectorAll('.modal').forEach(modal => {
+        if(event.target === modal){
+            modal.style.display = "none";
+        }
+    });
+}
+</script>
 
 </body>
 </html>
