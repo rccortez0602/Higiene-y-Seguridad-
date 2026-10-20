@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSE Richard Cortez</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <nav>
+        <div class="logo">
+            HSE RICHARD CORTEZ
+        </div>
+
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- PORTADA -->
+
+    <section id="inicio" class="hero">
+
+        <div class="contenido">
+
+            <h1>Higiene y Seguridad<br>en el Trabajo</h1>
+
+            <p>
+                Servicios profesionales para empresas,
+                industrias, comercios y obras.
+            </p>
+
+            <a href="#presupuesto" class="boton">
+                Solicitar Presupuesto
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICIOS -->
+
+<section id="servicios" class="servicios">
+
+    <h2>Nuestros Servicios</h2>
+
+    <div class="grid">
+
+       <div class="card">
+
+    <img src="Captura de pantalla 2026-10-20 100242.jpg" alt="Programas de Seguridad">
+
+    <h3>Programas de Seguridad</h3>
+
+    <button class="btn-servicio"
+    onclick="abrirModal('modal1')">
+        Más información
+    </button>
+
+</div>
+
+<div class="card">
+
+    <img src="evaluacion de riesgos.jpg" alt="Evaluación de Riesgos">
+
+    <h3>Evaluación de Riesgos</h3>
+
+    <button class="btn-servicio"
+    onclick="abrirModal('modal2')">
+        Más información
+    </button>
+
+</div>
+
+<div class="card">
+
+    <img src="capacitacion.jpg" alt="Capacitaciones">
+
+    <h3>Capacitaciones</h3>
+
+    <button class="btn-servicio"
+    onclick="abrirModal('modal3')">
+        Más información
+    </button>
+
+</div>
+
+<div class="card">
+
+    <img src="inspecciones.jpg" alt="Inspecciones">
+
+    <h3>Inspecciones</h3>
+
+    <button class="btn-servicio"
+    onclick="abrirModal('modal4')">
+        Más información
+    </button>
+
+</div>
+
+    </div>
+
+</section>
+
+    <!-- SOBRE MI -->
+
+    <section id="sobremi" class="sobre">
+
+        <h2>Sobre Mí</h2>
+
+        <p>
+            Soy Richard Cortez, Técnico en Higiene y Seguridad.
+            Brindo asesoramiento profesional en prevención de riesgos,
+            cumplimiento normativo, auditorías e higiene laboral para
+            empresas, industrias y proyectos de construcción.
+Mas de 30 años de experiencia de tareas en altura (Telecomunicaciones)
+        </p>
+
+    </section>
+
+    <!-- POR QUE ELEGIRNOS -->
+
+    <section class="ventajas">
+
+        <h2>¿Por Qué Elegirnos?</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Atención Personalizada</h3>
+            </div>
+
+            <div class="card">
+                <h3>Respuesta Rápida</h3>
+            </div>
+
+            <div class="card">
+                <h3>Experiencia Técnica</h3>
+            </div>
+
+            <div class="card">
+                <h3>Soluciones Adaptadas</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PRESUPUESTO -->
+
+    <section id="presupuesto" class="presupuesto">
+
+        <h2>Solicitá Tu Presupuesto</h2>
+
+        <p>
+            Recibí una propuesta adaptada a las necesidades de tu empresa.
+        </p>
+
+        <a href="https://wa.me/5492966621791" class="boton">
+            WhatsApp
+        </a>
+
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section id="contacto" class="contacto">
+
+        <h2>Contacto</h2>
+
+        <form>
+
+            <input type="text" placeholder="Nombre Completo" required>
+
+            <input type="text" placeholder="Empresa">
+
+            <input type="email" placeholder="Correo Electrónico" required>
+
+            <input type="tel" placeholder="Teléfono">
+
+            <textarea rows="6"
+                placeholder="Escriba aquí su consulta"></textarea>
+
+            <button type="submit">
+                Enviar Consulta
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- DATOS -->
+
+    <section class="datos">
+
+        <h2>Información de Contacto</h2>
+
+        <p>📍 Río Gallegos, Santa Cruz</p>
+
+        <p>📞 +54 9 2966 621791</p>
+
+        <p>✉ richardcortez1969@gmail.com</p>
+        
+
+    </section>
+
+    <!-- PIE -->
+
+    <footer>
+
+        <h3>HSE Richard Cortez MAT THS0877PSC</h3>
+
+        <p>
+            Protegemos a las personas,
+            fortalecemos a las empresas.
+        </p>
+
+    </footer>
+<!-- MODAL 1 -->
+
+<div id="modal1" class="modal">
+
+    <div class="modal-contenido">
+
+        <span class="cerrar"
+        onclick="cerrarModal('modal1')">
+            &times;
+        </span>
+
+        <h2>Programas de Seguridad</h2>
+
+        <p>
+
+        </p>
+
+        <ul>
+            
+            <li>✓ Aviso de Obra</li>
+            <li>✓ AST - Análisis Seguro de Trabajo</li>
+            <li>✓ Procedimientos Seguros de Trabajo</li>
+            <li>✓ Matriz de Riesgos</li>
+            <li>✓ Documentación para ART</li>
+            <li>✓ Legajo Técnico</li>
+            <li>✓ Investigación de Incidentes</li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- MODAL 2 -->
+
+<div id="modal2" class="modal">
+
+    <div class="modal-contenido">
+
+        <span class="cerrar"
+        onclick="cerrarModal('modal2')">
+            &times;
+        </span>
+
+        <h2>Evaluacion de Riesgos</h2>
+
+        <p>
+
+        </p>
+
+       <ul>
+            <li>✓ Identificación de Peligros</li>
+            <li>✓ Matriz de Riesgos</li>
+            <li>✓ Evaluación de Impactos</li>
+            <li>✓ Medidas Preventivas</li>
+            <li>✓ Informes Técnicos</li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- MODAL 3 -->
+
+<div id="modal3" class="modal">
+
+    <div class="modal-contenido">
+
+        <span class="cerrar"
+        onclick="cerrarModal('modal3')">
+            &times;
+        </span>
+
+        <h2>Capacitaciones en Higiene y Seguridad</h2>
+
+        <p>
+            Brindamos capacitaciones teórico-prácticas.
+        </p>
+
+        <ul>
+            <li>✓ Uso correcto de Elementos de Protección Personal (EPP)</li>
+            <li>✓ Trabajo Seguro en Altura</li>
+            <li>✓ Prevención de Riesgo Eléctrico</li>
+            <li>✓ Manejo Manual de Cargas</li>
+            <li>✓ Primeros Auxilios</li>
+            <li>✓ Prevención y Lucha Contra Incendios</li>
+            <li>✓ Evacuación y Planes de Emergencia</li>
+            <li>✓ Seguridad en Obras de Construcción</li>
+            <li>✓ Charlas de 5 Minutos</li>
+            <li>✓ Capacitación para Contratistas</li>
+        </ul>
+
+    </div>
+
+</div>
+<!-- MODAL 4 -->
+
+<div id="modal4" class="modal">
+
+    <div class="modal-contenido">
+
+        <span class="cerrar"
+        onclick="cerrarModal('modal4')">
+            &times;
+        </span>
+
+        <h2>Inspecciones de Seguridad e Higiene</h2>
+
+        <p>
+           Inspecciones periódicas para verificar el
+            cumplimiento de las normas de seguridad e higiene
+        </p>
+
+        <ul>
+            <li>✓ Inspecciones de obra</li>
+            <li>✓ Inspecciones de trabajo en altura</li>
+            <li>✓ Control de uso de EPP</li>
+            <li>✓ Verificación de herramientas y equipos</li>
+            <li>✓ Inspección de extintores y sistemas contra incendios</li>
+            <li>✓ Identificación de condiciones inseguras</li>
+            <li>✓ Auditorías internas de Seguridad e Higiene</li>
+            <li>✓ Informes técnicos con acciones correctivas</li>
+            <li>✓ Seguimiento de observaciones y mejoras</li>
+            <li>✓ Control documental de contratistas</li>
+        </ul>
+
+    </div>
+
+</div>
+<script>
+
+function abrirModal(id){
+    document.getElementById(id).style.display="flex";
+}
+
+function cerrarModal(id){
+    document.getElementById(id).style.display="none";
+}
+
+</script>
+
+</body>
+
+</html>
