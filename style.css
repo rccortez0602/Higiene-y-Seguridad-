@@ -396,8 +396,6 @@ footer h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 35px;
     text-decoration: none;
     z-index: 9999;
     box-shadow: 0 5px 15px rgba(0,0,0,.3);
@@ -405,4 +403,9 @@ footer h3{
 
 .whatsapp-float:hover{
     transform: scale(1.1);
+}
+
+.whatsapp-float img{
+    width: 42px;
+    height: 42px;
 }
