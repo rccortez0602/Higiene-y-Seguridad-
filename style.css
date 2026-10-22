@@ -407,3 +407,13 @@ footer h3{
     border-radius: 50%;
     object-fit: cover;
 }
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-img{
+    width:50px;
+    height:auto;
+}
