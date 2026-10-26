@@ -525,3 +525,31 @@ footer{
     font-size: 1.4rem;
     text-align: center;
 }
+.soluciones-adaptadas{
+    background-image: url("soluciones-adaptadas.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 220px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.soluciones-adaptadas::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.soluciones-adaptadas h3{
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}
