@@ -477,11 +477,9 @@ footer{
     background-size: cover;
     background-position: center;
     min-height: 220px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
     overflow: hidden;
 }
