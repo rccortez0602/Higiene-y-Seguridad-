@@ -472,3 +472,30 @@ footer{
     font-size: 1.4rem;
     text-align: center;
 }
+.respuesta-rapida{
+    background-image: url("respuesta-rapida.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 220px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.respuesta-rapida::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.respuesta-rapida h3{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
