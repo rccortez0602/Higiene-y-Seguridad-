@@ -360,9 +360,11 @@ footer h3{
 }
 
 .modal-contenido img{
-    width:100%;
+    width:50%;
+    max-width:350px;
+    display:block;
+    margin:0 auto 20px auto;
     border-radius:10px;
-    margin-bottom:20px;
 }
 
 .cerrar{
@@ -582,9 +584,9 @@ nav ul{
 
 .img-modal{
     display:block;
-    width:60%;
-    max-width:450px;
-    height:auto;
+    width:350px !important;
+    max-width:100%;
+    height:auto !important;
     margin:15px auto;
     border-radius:10px;
 }
