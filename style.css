@@ -352,11 +352,11 @@ footer h3{
 
 .modal-contenido{
     background:white;
-    width:90%;
+    width:95%;
     max-width:700px;
     max-height:80vh;
     overflow-y:auto;
-    padding:30px;
+    padding:15px;
     border-radius:15px;
     position:relative;
 }
