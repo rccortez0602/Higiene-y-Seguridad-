@@ -318,6 +318,7 @@ footer h3{
     .hero{
         text-align:center;
         justify-content:center;
+        padding-top:120px;
     }
    .contenido{
         margin-top:40px;
