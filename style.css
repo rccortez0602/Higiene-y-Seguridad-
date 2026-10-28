@@ -335,6 +335,17 @@ footer h3{
     section h2{
         font-size:32px;
     }
+   .modal-contenido{
+        width:95%;
+        box-sizing:border-box;
+    }
+
+    .modal-contenido img{
+        width:100%;
+        max-width:100%;
+    }
+
+   
 
 }
 .modal{
@@ -371,7 +382,6 @@ footer h3{
     border-radius:10px;
     object-fit:cover;
 }
-
 .cerrar{
     position:absolute;
     top:10px;
