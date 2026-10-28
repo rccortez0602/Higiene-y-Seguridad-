@@ -595,3 +595,11 @@ nav ul{
     margin:15px auto;
     border-radius:10px;
 }
+   .modal-contenido{
+    box-sizing:border-box;
+}
+
+.modal-contenido img{
+    max-width:100%;
+    height:auto;
+}
