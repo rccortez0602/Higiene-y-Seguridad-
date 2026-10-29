@@ -613,3 +613,67 @@ nav ul{
     max-width:100%;
     height:auto;
 }
+/* =========================
+   ACTUALIDAD HSE
+========================= */
+
+.actualidad{
+    padding:80px 8%;
+    background:#f7f7f7;
+    text-align:center;
+}
+
+.actualidad h2{
+    color:#0b336f;
+    font-size:2.2rem;
+    margin-bottom:15px;
+}
+
+.actualidad .subtitulo{
+    max-width:700px;
+    margin:0 auto 40px;
+    color:#555;
+    font-size:1.1rem;
+}
+
+.grid-actualidad{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.nota{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.nota:hover{
+    transform:translateY(-5px);
+}
+
+.nota h3{
+    color:#0b336f;
+    margin-bottom:15px;
+}
+
+.nota p{
+    color:#555;
+    margin-bottom:20px;
+}
+
+.nota a{
+    display:inline-block;
+    background:#ff6b00;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+.nota a:hover{
+    background:#e55f00;
+}
