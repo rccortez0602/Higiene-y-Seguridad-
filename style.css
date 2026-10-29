@@ -644,11 +644,15 @@ nav ul{
     margin-top:40px;
 }
 .nota{
-    background:white;
+    width:320px;
+    background:#ffffff;
     padding:25px;
     border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    border:1px solid #ddd;
+}
+   .nota{
+    display:block;
 }
 
 .nota:hover{
