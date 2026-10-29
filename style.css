@@ -679,7 +679,60 @@ nav ul{
     border-radius:25px;
     font-weight:bold;
 }
+.detalle-articulo{
+    padding:80px 8%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.detalle-articulo h2{
+    color:#0b336f;
+    margin-bottom:30px;
+}
+
+.img-articulo{
+    display:block;
+    margin:0 auto 25px;
+    width:100%;
+    max-width:600px;
+    border-radius:15px;
+}
+
+.detalle-articulo p{
+    max-width:800px;
+    margin:15px auto;
+    line-height:1.8;
+    color:#444;
+    text-align:left;
+}
 
 .nota a:hover{
     background:#e55f00;
+}
+
+.detalle-articulo{
+    padding:80px 8%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.detalle-articulo h2{
+    color:#0b336f;
+    margin-bottom:30px;
+}
+
+.img-articulo{
+    display:block;
+    margin:0 auto 25px;
+    width:100%;
+    max-width:600px;
+    border-radius:15px;
+}
+
+.detalle-articulo p{
+    max-width:800px;
+    margin:15px auto;
+    line-height:1.8;
+    color:#444;
+    text-align:left;
 }
