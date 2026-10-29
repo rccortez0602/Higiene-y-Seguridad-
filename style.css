@@ -721,3 +721,39 @@ nav ul{
     margin-bottom:30px;
 }
 
+/* ===== MODALES ACTUALIDAD HSE ===== */
+
+.modal-actualidad{
+    max-width:900px;
+    padding:30px;
+}
+
+.modal-actualidad .img-modal{
+    width:100%;
+    max-width:650px;
+    max-height:none;
+    height:auto;
+    display:block;
+    margin:0 auto 25px auto;
+    border-radius:12px;
+}
+
+.modal-actualidad h2{
+    color:#0b336f;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.modal-actualidad h3{
+    color:#ff6b00;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.modal-actualidad p{
+    line-height:1.8;
+}
+
+.modal-actualidad ul{
+    padding-left:20px;
+}
