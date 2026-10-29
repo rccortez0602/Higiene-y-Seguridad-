@@ -190,22 +190,31 @@
 
     <div class="grid-actualidad">
 
-        <article class="nota">
-            <h3>Uso Correcto de EPP</h3>
-            <p>
-                La correcta utilización de los elementos de protección personal es fundamental para prevenir accidentes.
-            </p>
-            <a href="#">Leer más</a>
-        </article>
+       <article class="nota">
 
-        <article class="nota">
-            <h3>Trabajo en Altura</h3>
-            <p>
-                Recomendaciones de seguridad para realizar tareas en altura minimizando riesgos.
-            </p>
-            <a href="#">Leer más</a>
-        </article>
+    <h3>Uso Correcto de EPP</h3>
 
+    <p>
+        La correcta utilización de los elementos de protección personal es fundamental para prevenir accidentes.
+    </p>
+
+    <button class="btn-info" onclick="toggleEPP()">
+        Leer más
+    </button>
+
+    <div id="info-epp" style="display:none; margin-top:20px;">
+
+        <img src="EPP.jpg" alt="Uso Correcto de EPP" class="img-epp">
+
+        <p>
+            Los Elementos de Protección Personal constituyen la última barrera frente a los riesgos laborales.
+            Su correcta selección, utilización y mantenimiento ayudan a prevenir lesiones y enfermedades
+            profesionales en el ámbito de trabajo.
+        </p>
+
+    </div>
+
+</article>
         <article class="nota">
             <h3>Inspecciones de Seguridad</h3>
             <p>
@@ -452,6 +461,17 @@ function cerrarModal(id){
       <img src="whatsapp.png" alt="WhatsApp">
 
    </a>
+ <script>
+function toggleEPP() {
+    var info = document.getElementById("info-epp");
+
+    if (info.style.display === "none") {
+        info.style.display = "block";
+    } else {
+        info.style.display = "none";
+    }
+}
+</script>   
 
 </body>
 
