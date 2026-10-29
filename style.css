@@ -403,10 +403,10 @@ footer h3{
 .btn-servicio{
     padding:6px 10px;
     font-size:14px;
-    background:#0b2d5b;
+   background:#ff6b00;
     color:white;
     border:none;
-    border-radius:6px;
+    border-radius:25px;
     cursor:pointer;
     font-weight:600;
 }
