@@ -637,11 +637,12 @@ nav ul{
 }
 
 .grid-actualidad{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    display:flex;
     gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:40px;
 }
-
 .nota{
     background:white;
     padding:25px;
